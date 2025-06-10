@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Fútbol Club Barcelona</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px 0;
+            display: block;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; 
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background-color: #003DA5;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            main {
+                padding: 15px;
+            }
+
+            section {
+                margin-bottom: 30px;
+            }
+
+            .video-container {
+                padding-bottom: 65%; 
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 22px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            p, ul li {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fútbol Club Barcelona</h1>
+    <p>"Más que un club"</p>
+</header>
+
+<main>
+    <section>
+        <h2>Historia del Club</h2>
+        <p>El Fútbol Club Barcelona fue fundado el 29 de noviembre de 1899 por un grupo de futbolistas suizos, ingleses y catalanes. Desde entonces, se ha convertido en uno de los clubes más grandes y exitosos del mundo.</p>
+        <img src="nuevo-estadio-barcelona-1.jpg" alt="Camp Nou - Estadio del FC Barcelona">
+        <p>El Barça ha ganado numerosos títulos nacionales e internacionales, incluyendo múltiples campeonatos de La Liga, Copas del Rey y Ligas de Campeones de la UEFA. También es conocido por su filosofía de fútbol ofensivo y por haber formado a jugadores legendarios como Messi, Xavi e Iniesta.</p>
+    </section>
+
+    <section>
+        <h2>Escudo del Club</h2>
+        <img src="escudo.jpg" alt="Escudo FC Barcelona">
+        <p>El escudo del club representa la identidad catalana, el amor por el deporte y la historia rica del Barça. Es uno de los escudos más reconocidos en el mundo del fútbol.</p>
+    </section>
+
+    <section>
+        <h2>Video: Partido del FC Barcelona</h2>
+        <p>Video de leyendas del barcelona:</p>
+        <div class="video-container">
+            <iframe src="leyendas.mp4" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Jugadores Históricos</h2>
+        <p>Algunos de los jugadores más icónicos que han vestido la camiseta blaugrana:</p>
+        <ul>
+            <li>Lionel Messi</li>
+            <img src="messi2.jpg" alt="Lionel Messi">
+            <li>Xavi Hernández</li>
+            <img src="xavi.jpg" alt="Xavi Hernández">
+            <li>Andrés Iniesta</li>
+            <img src="andres.jpg" alt="Andrés Iniesta">
+            <li>Ronaldinho</li>
+            <img src="Ronaldinho.jpg" alt="Ronaldinho">
+            <li>Carles Puyol</li>
+            <img src="Puyol.jpg" alt="Carles Puyol">
+            <li>Johan Cruyff</li>
+            <img src="Cruyff.jpg" alt="Johan Cruyff">
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p> 2025 Página dedicada al FC Barcelona - creada por jonatahan hernandez olivera</p>
+</footer>
+
+</body>
+</html>
